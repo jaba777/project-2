@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background-color: brown;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header .menu-title{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.header .menu-title ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    transform: translateY(10%);
+}
+
+.header .menu-title ul li{
+    margin: 5px 15px;
+}
+
+.header .menu-title ul li a:hover{
+    background-color: blue;
+}
+
+.header .menu-title ul li a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 23px;
+    top: 0;
+}
+
+
+
+.input{
+    width: 100%;
+    height: 38rem;
+    display: flex;
+    justify-content: center;
+    
+    background: rgba(12, 31, 143, 0.5);
+}
+
+.input button{
+    cursor: pointer;
+}
+
+
+.input .input-text,
+.input button{
+    margin: auto 2px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+iframe{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+footer {
+    background-color: #303841;
+    border-top: 4px solid brown;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+  footer p{
+    color: white;
+    font-size: 1.2rem;
+  }
+  footer p a{
+    color: white;
+  }
